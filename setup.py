@@ -4,7 +4,7 @@ from distutils.core import setup
 
 setup(
     name = 'vizmdend',
-    packages = ['vizmdend',],
+    packages = ['vizmdend','vizmdend/test' ],
     version = '1.1.0',
     description = 'AMBER mdend file inspector',
     author = 'Jose Borreguero',
