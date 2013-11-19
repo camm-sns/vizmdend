@@ -5,12 +5,12 @@ from distutils.core import setup
 setup(
     name = 'vizmdend',
     packages = ['vizmdend',],
-    version = '1.1.0'
+    version = '1.1.0',
     description = 'AMBER mdend file inspector',
     author = 'Jose Borreguero',
     author_email = 'jose@borreguero.com',
     url = 'http://borreguero.com',
-    url_download = 'http://borreguero.com',
+    download_url = 'http://borreguero.com',
     keywords = ['AMBER', 'mdend', 'energy', 'molecular dynamics'],
     classifiers = [
         'Programming Language :: Python',
