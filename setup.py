@@ -9,8 +9,8 @@ setup(
     description = 'AMBER mdend file inspector',
     author = 'Jose Borreguero',
     author_email = 'jose@borreguero.com',
-    url = 'http://borreguero.com',
-    download_url = 'http://borreguero.com',
+    url = 'https://github.com/jmborr/vizmdend',
+    download_url = 'http://pypi.python.org/pypi/vizmdend',
     keywords = ['AMBER', 'mdend', 'energy', 'molecular dynamics'],
     classifiers = [
         'Programming Language :: Python',
