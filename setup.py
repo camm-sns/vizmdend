@@ -15,12 +15,11 @@ setup(
     classifiers = [
         'Programming Language :: Python',
         'Programming Language :: Python :: 2.7',
-        'Development Status :: 1 - Beta',
-        'Environment :: Other Environment',
-        'Intended Audience :: AMBER users',
-        'License :: MIT',
+        'Development Status :: 4 - Beta',
+        'Intended Audience :: Science/Research',
+        'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
-        'Topic :: Modeling and Simulations :: Analysis :: Output Visualization',
+        'Topic :: Scientific/Engineering :: Physics',
         ],
     long_description = '''\
 AMBER Molecular Dynamics mdend file Inspector
