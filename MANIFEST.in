@@ -1,1 +1,3 @@
-recursive-include include *.pyw *.ui
+include CHANGES.txt
+recursive-include vizmdend *.pyw *.ui
+recursive-include vizmdend/test *.mdend
