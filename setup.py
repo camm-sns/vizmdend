@@ -9,7 +9,7 @@ setup(
     description = 'AMBER mdend file inspector',
     author = 'Jose Borreguero',
     author_email = 'jose@borreguero.com',
-    url = 'https://github.com/jmborr/vizmdend',
+    url = 'https://github.com/camm-sns/vizmdend',
     download_url = 'http://pypi.python.org/pypi/vizmdend',
     keywords = ['AMBER', 'mdend', 'energy', 'molecular dynamics'],
     classifiers = [
@@ -21,10 +21,5 @@ setup(
         'Operating System :: OS Independent',
         'Topic :: Scientific/Engineering :: Physics',
         ],
-    long_description = '''\
-AMBER Molecular Dynamics mdend file Inspector
-----------------------------------------------
-
-This version requires Python 2.X > 2.4
-'''
+    long_description = open('README.txt').read()
 )
