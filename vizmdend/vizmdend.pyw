@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
-import reader
-from logger import tr
+from vizmdend import reader
+from vizmdend.logger import tr
 
 import numpy
 
@@ -10,7 +10,7 @@ from PyQt4.QtGui import (QApplication, QDialog, QFileDialog, QSizePolicy)
 from matplotlib.backends.backend_qt4agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
 
-import ui_vizmdend
+from vizmdend import ui_vizmdend
 
 MAC = True
 try:
